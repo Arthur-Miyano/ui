@@ -1,12 +1,4 @@
-# ui
-## 背景
-你正在改进一个基于 Streamlit 的企业内部工具，名为 "VSIP Estimation"（localhost:8501）。
-当前技术栈：Python + Streamlit。应用包含 3 个主要视图：
-1. 登录视图（staffId + password）
-2. 首页/入口视图（在 "Jira Link analysis" 和 "Excel/CSV analysis" 之间选择）
-3. Jira 配置视图（输入 Jira 引用、选择置信度模式、预览设置）
 
-## 现有问题（来自当前 UI 截图）
 当前 UI 存在以下问题：
 - **文字过多**：每个屏幕都有大段描述文字。用户是扫描式阅读，不会逐字阅读。
 - **视觉层级弱**：按钮太小，看起来不像可点击元素。主要操作按钮与背景融为一体。
